@@ -11,8 +11,10 @@ If you do not see gpio in the list then run the following command
 
 Create a directory for your project
 
-```$ mkdir circuit
-$ cd circuit```
+```
+$ mkdir circuit
+$ cd circuit
+```
 
 Setup circuit with LED
 On your breadboard, create a circuit to turn on an LED using jumper wires, a resistor, and an LED
