@@ -26,6 +26,7 @@ Move the 5V jumper wire to one of the numbered GPIO pins, remember which pin num
 The line of code needed to turn on or off an LED is `gpiod_line_set_value(line, val);`. You will need to modify the program to include a loop that will turn the LED on and off.
 
 You will need to wrap the above line in a `for` loop, and include a few other lines
+
 `for(int i = 0; i < ?; i++)`
 
 `usleep(500000);`
