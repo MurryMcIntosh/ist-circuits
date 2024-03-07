@@ -1,4 +1,6 @@
 #include <gpiod.h>
+#include <stdio.h>
+#include <unistd.h>
 
 int main() {
         char chipname[] = "gpiochip0";
